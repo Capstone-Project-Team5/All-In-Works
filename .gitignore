@@ -35,6 +35,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-### 프로퍼티스 파일 제외
-*.properties
