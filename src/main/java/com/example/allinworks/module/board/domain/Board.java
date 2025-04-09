@@ -14,7 +14,7 @@ public class Board {
 //    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String userNo;
 
-    @ManyToOne // 변경해야 할 수도 있다.
+//    @ManyToOne // 변경해야 할 수도 있다.
     @JoinColumn(name = "DEPT_NO", nullable = false)
     private String deptNo;
 

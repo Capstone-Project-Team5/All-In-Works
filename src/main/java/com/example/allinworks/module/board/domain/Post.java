@@ -12,6 +12,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Post {
 
+    @Id
     private String postNo;
 
     private String boardNo;

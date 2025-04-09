@@ -11,6 +11,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Comment {
 
+    @Id
     private String commentNo;
 
     private String postNo;
